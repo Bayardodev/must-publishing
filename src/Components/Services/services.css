@@ -1,0 +1,13 @@
+.card-text{
+    font-size: 0.7rem;
+}
+
+.card-title{
+    font-size: 1rem;
+}
+
+.card-pattern1{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../../public/static/images/services/pattern1.png");
+}
