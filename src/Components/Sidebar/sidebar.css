@@ -1,0 +1,13 @@
+.shop-card-bg{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url("../../../public/static/images/shop-bg.jpg");
+}
+
+.offer-card-bg{
+    background-image: url("../../../public/static/images/shop-bg.jpg");
+}
+
+.mask{
+    background-color: rgba(0, 0, 0, 0.6);
+}
