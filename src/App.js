@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
-import Admin from "./Layouts/Admin";
-import Layouts from "./Layouts";
+const Layouts = React.lazy(() => import('./Layouts'));
+const Admin = React.lazy(() => import('./pages/Admin'));
 
 function App() {
   return (

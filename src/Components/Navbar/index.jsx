@@ -1,43 +1,41 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
+import "./style.css"
 
 export default class Navbar extends Component {
-  render() {
-    return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          My Website
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    );
+	render() {
+		return (
+			<header>
+			<section className="custom-header">
+					<nav>
+						<img src="../../../public/static/images/cool.png" alt="" />
+						<ul>
+							<li><Link to="/Home">Home</Link></li>
+							<li><Link to="/Intro">About Me</Link></li>
+							<li><Link to="/Service">Skills</Link></li>
+							<li><Link to="/Product">Programming Language</Link></li>
+							<li><Link to="/Contact">Profile</Link></li>
+						</ul>
+						<a className="login-btn ms-auto">Login</a>
+						<div
+							className="collapser ms-auto"
+							// onClick={() => collapser()}
+						>
+							<p/>
+							<p/>
+							<p/>
+						</div>
+					</nav>
+					{/* {
+						open_sidebar
+						&&
+						<div className="sidebar">
+							<NavigationBar/>
+						</div>
+					} */}
+				</section>
+			</header>
+		);
   }
 }

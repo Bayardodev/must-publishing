@@ -1,16 +1,23 @@
 import React, { Component } from "react";
-import Navbar from "../Components/Navbar";
-import Slider from "../Components/Slider";
-import Services from "../Components/Services";
-import Sidebar from "../Components/Sidebar";
-import Calculation from "../Components/Calculation";
+
+// import Navbar from "@components/Navbar";
+// import Sidebar from "@components/Sidebar";
+// import Slider from "../Components/Slider";
+// import Services from "@components/Services";
+// import Calculation from "@components/Calculation";
+import Navbar from "../components/Navbar";
+import Slider from "../components/Slider";
+import Services from "../components/Services";
+import Sidebar from "../components/Sidebar";
+import Calculation from "../components/Calculation";
+
 
 export default class Layouts extends Component {
   render() {
     return (
       <>
+        <Navbar></Navbar>
         <div className="container">
-          <Navbar></Navbar>
           <Slider></Slider>
           <div className="row">
             <div className="col-sm-8">
