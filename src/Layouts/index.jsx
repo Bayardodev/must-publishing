@@ -12,17 +12,9 @@ export default class Layouts extends Component {
         <div className="container">
           <Navbar></Navbar>
           <Slider></Slider>
-          <div className="row">
-            <div className="col-sm-8">
-              <Services />
-            </div>
-            <div className="col-sm-4">
-              <Sidebar />
-            </div>
-          </div>
-          <div>
-            <Calculation />
-          </div>
+          <Services />
+          <Sidebar />
+          <Calculation />
         </div>
       </>
     );
