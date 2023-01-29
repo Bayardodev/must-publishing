@@ -4,6 +4,7 @@ import Slider from "../Components/Slider";
 import Services from "../Components/Services";
 import Sidebar from "../Components/Sidebar";
 import Calculation from "../Components/Calculation";
+import Footer from "../Components/Footer";
 
 export default class Layouts extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class Layouts extends Component {
           <Services />
           <Sidebar />
           <Calculation />
+          <Footer></Footer>
         </div>
       </>
     );

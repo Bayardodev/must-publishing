@@ -4,13 +4,13 @@ export default class Services extends Component {
   render() {
     return (
       <>
-        <div class="container">
+        <div>
           <h2>Хэвлэлийн үйлчилгээнүүд</h2>
-          <ul class="cards custom-cards">
-            <li class="card custom-service-card">
+          <ul className="cards custom-cards">
+            <li className="card custom-service-card">
               <div>
-                <h3 class="card-title">Ном, Сурах бичиг</h3>
-                <div class="card-content">
+                <h3 className="card-title">Ном, Сурах бичиг</h3>
+                <div className="card-content">
                   <p>
                     Ном, сурах бичгийн хавтас нь хатуу болон зөөлөн гэсэн хоёр
                     төрөл байж болох бөгөөд Удаан хадгалах сайн чанарын номуудыг
@@ -18,32 +18,32 @@ export default class Services extends Component {
                   </p>
                 </div>
               </div>
-              <div class="card-link-wrapper">
-                <a href="" class="card-link">
+              <div className="card-link-wrapper">
+                <a href="" className="card-link">
                   Дэлрэгэнгүй
                 </a>
               </div>
             </li>
-            <li class="card custom-service-card">
+            <li className="card custom-service-card">
               <div>
-                <h3 class="card-title">Сонин, Сэтгүүл</h3>
-                <div class="card-content">
+                <h3 className="card-title">Сонин, Сэтгүүл</h3>
+                <div className="card-content">
                   <p>
                     Бүх төрлийн сонин, сэтгүүлийг таны хүссэн загвар дизайнаар
                     захиалгаар үйлдвэрлэж байна.
                   </p>
                 </div>
               </div>
-              <div class="card-link-wrapper">
-                <a href="" class="card-link">
+              <div className="card-link-wrapper">
+                <a href="" className="card-link">
                   Дэлрэгэнгүй
                 </a>
               </div>
             </li>
-            <li class="card custom-service-card">
+            <li className="card custom-service-card">
               <div>
-                <h3 class="card-title">Тайлан, Дипломын ажил</h3>
-                <div class="card-content">
+                <h3 className="card-title">Тайлан, Дипломын ажил</h3>
+                <div className="card-content">
                   <p>
                     Бүх төрлийн тайлан, дипломын ажлыг таны хүссэн загвар
                     дизайнаар лак, матт, софт бүрэлт зэрэг орчин үеийн
@@ -51,16 +51,16 @@ export default class Services extends Component {
                   </p>
                 </div>
               </div>
-              <div class="card-link-wrapper">
-                <a href="" class="card-link">
+              <div className="card-link-wrapper">
+                <a href="" className="card-link">
                   Дэлрэгэнгүй
                 </a>
               </div>
             </li>
-            <li class="card custom-service-card">
+            <li className="card custom-service-card">
               <div>
-                <h3 class="card-title">Танилцуулга</h3>
-                <div class="card-content">
+                <h3 className="card-title">Танилцуулга</h3>
+                <div className="card-content">
                   <p>
                     Бүх төрлийн танилцуулга каталогийг таны брэндийн онцлогийг
                     тусган таны хүссэн загвар дизайнаар лак, матт, софт бүрэлт
@@ -68,16 +68,16 @@ export default class Services extends Component {
                   </p>
                 </div>
               </div>
-              <div class="card-link-wrapper">
-                <a href="" class="card-link">
+              <div className="card-link-wrapper">
+                <a href="" className="card-link">
                   Дэлрэгэнгүй
                 </a>
               </div>
             </li>
-            <li class="card custom-service-card">
+            <li className="card custom-service-card">
               <div>
-                <h3 class="card-title">Урилга мэндчилгээ</h3>
-                <div class="card-content">
+                <h3 className="card-title">Урилга мэндчилгээ</h3>
+                <div className="card-content">
                   <p>
                     Нугалаатай, энгийн болон калькан дугтуйтай зэрэг бүх төрлийн
                     урилга мэндчилгээг таны хүссэн дизайн, шийдлээр захиалгаар
@@ -85,32 +85,32 @@ export default class Services extends Component {
                   </p>
                 </div>
               </div>
-              <div class="card-link-wrapper">
-                <a href="" class="card-link">
+              <div className="card-link-wrapper">
+                <a href="" className="card-link">
                   Дэлрэгэнгүй
                 </a>
               </div>
             </li>
-            <li class="card custom-service-card">
+            <li className="card custom-service-card">
               <div>
-                <h3 class="card-title">Албан бланк</h3>
-                <div class="card-content">
+                <h3 className="card-title">Албан бланк</h3>
+                <div className="card-content">
                   <p>
                     Бүх төрлийн албан бланкыг таны хүссэн загвар, стандарт,
                     дизайнаар захиалгаар үйлдвэрлэж байна.
                   </p>
                 </div>
               </div>
-              <div class="card-link-wrapper">
-                <a href="" class="card-link">
+              <div className="card-link-wrapper">
+                <a href="" className="card-link">
                   Дэлрэгэнгүй
                 </a>
               </div>
             </li>
-            <li class="card custom-service-card">
+            <li className="card custom-service-card">
               <div>
-                <h3 class="card-title">Нэрийн хуудас</h3>
-                <div class="card-content">
+                <h3 className="card-title">Нэрийн хуудас</h3>
+                <div className="card-content">
                   <p>
                     Таны нэрийн хуудсыг таны хүссэн загвар шийдлээр саатай,
                     матт, софт бүрэлт зэрэг орчин үеийн технологоор захиалгаар
@@ -118,40 +118,40 @@ export default class Services extends Component {
                   </p>
                 </div>
               </div>
-              <div class="card-link-wrapper">
-                <a href="" class="card-link">
+              <div className="card-link-wrapper">
+                <a href="" className="card-link">
                   Дэлрэгэнгүй
                 </a>
               </div>
             </li>
-            <li class="card custom-service-card">
+            <li className="card custom-service-card">
               <div>
-                <h3 class="card-title">Карматай хавтас</h3>
-                <div class="card-content">
+                <h3 className="card-title">Карматай хавтас</h3>
+                <div className="card-content">
                   <p>
                     Цаасан хавтсыг таны хүссэн хэлбэр хэмжээтэйгээр хийж
                     гүйцэтгэнэ.
                   </p>
                 </div>
               </div>
-              <div class="card-link-wrapper">
-                <a href="" class="card-link">
+              <div className="card-link-wrapper">
+                <a href="" className="card-link">
                   Дэлрэгэнгүй
                 </a>
               </div>
             </li>
-            <li class="card custom-service-card">
+            <li className="card custom-service-card">
               <div>
-                <h3 class="card-title">Тасалбар талон</h3>
-                <div class="card-content">
+                <h3 className="card-title">Тасалбар талон</h3>
+                <div className="card-content">
                   <p>
                     Бүх төрлийн тасалбар талоныг таны хүссэн хэлбэр дүрсээр
                     захиалгаар үйлдвэрлэж байна.
                   </p>
                 </div>
               </div>
-              <div class="card-link-wrapper">
-                <a href="" class="card-link">
+              <div className="card-link-wrapper">
+                <a href="" className="card-link">
                   Дэлрэгэнгүй
                 </a>
               </div>
